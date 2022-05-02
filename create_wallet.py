@@ -9,3 +9,13 @@ print("Private Key: "+ private_key)
 #tạo vi tu private key
 wallet = connect.eth.account.privateKeyToAccount(private_key)
 print("Address :  " + wallet.address)
+
+
+function ax_b(float a,float b){
+    if(a==0){
+        return False;
+}
+    else{
+        return float(-b/a);
+}
+}
